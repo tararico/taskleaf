@@ -48,7 +48,6 @@ set :branch, 'master'
 #    forward_agent: false,
 #    auth_methods: %w(password)
 #  }
-#
 # The server-based syntax can be used to override options:
 # ------------------------------------
 #server 'os3-357-11608.vs.sakura.ne.jp',user: 'deploy',roles: %w{app},
@@ -61,8 +60,8 @@ set :branch, 'master'
 #}
 
 
-server "os3-357-11608.vs.sakura.ne.jp", user: "deploy", roles: %w{app}
-
+#server "os3-357-11608.vs.sakura.ne.jp", user: "deploy", roles: %w{app}
+server "133.167.38.112", user: "deploy", roles: %w{app}
 set :ssh_options, {
   keys: %w(~/.ssh/id_rsa),
   forward_agent: true,
