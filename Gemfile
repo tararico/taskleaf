@@ -72,4 +72,5 @@ gem 'bootstrap'
 gem 'rb-readline'
 gem 'rails_autolink'
 gem 'therubyracer'
+gem 'capistrano-nvm', require: false
 
