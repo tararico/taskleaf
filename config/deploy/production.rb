@@ -61,7 +61,7 @@ set :branch, 'master'
 
 
 #server "os3-357-11608.vs.sakura.ne.jp", user: "deploy", roles: %w{app}
-server "133.167.38.112", user: "deploy", roles: %w{app}
+server "133.167.38.112", user: "deploy", roles: %w{app web}
 set :ssh_options, {
   keys: %w(~/.ssh/id_rsa),
   forward_agent: true,
